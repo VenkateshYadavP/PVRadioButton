@@ -7,6 +7,10 @@ This library allows you to easily add Radio Buttons to your views in two ways.
 
 2) You can just add a view and set its custom class as PVRadioButtonView, and pass array of button titles to it, it will create list of radio buttons with those titles and place in that view. you can either choose that list to be scrollable or non - scrollable from attribute inspector.
 
+# Preview
+
+![alt tag](https://user-images.githubusercontent.com/9430941/30505101-5542d9ac-9a90-11e7-9470-0bda5e39d7e5.png)
+
 # Usage
 
 You can use in two ways as I mentioned above.
