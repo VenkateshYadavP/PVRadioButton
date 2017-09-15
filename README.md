@@ -51,4 +51,4 @@ and implement following method
     
  Here you will get button which is clicked.
  
-If you want it to be scrollable you can set buttonHeight and isScrollable to true from attributes inspector, if you set  isScrollable to false it will adjust buttons height so that it all buttons fit in view.you can set various attributes from attributes inspector and design it according to your requirements.
+If you want it to be scrollable you can set buttonHeight and isScrollable to true from attributes inspector, if you set  isScrollable to false it will adjust buttons height so that it all buttons fit in view.you can set various attributes from attributes inspector and change colors and heights according to your requirements.
