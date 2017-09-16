@@ -1,5 +1,5 @@
 # PVRadioButton
-Radio Button for iOS apps
+Radio Button and Radio Buttons View for iOS apps, Swift
 
 This library allows you to easily add Radio Buttons to your views in two ways.
 
