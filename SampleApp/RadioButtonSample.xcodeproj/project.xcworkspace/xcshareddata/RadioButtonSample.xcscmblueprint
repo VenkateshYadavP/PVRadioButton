@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "946620783817E4422963D754712E3F3109918620",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "946620783817E4422963D754712E3F3109918620" : 9223372036854775807,
+    "28906C8B8F9E09176CFE1D04D71466BA3F4F2FEF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F5ABEE52-0D48-4A6F-9C5B-722409864EF4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "946620783817E4422963D754712E3F3109918620" : "..\/..\/PVRadioButton\/Sample",
+    "28906C8B8F9E09176CFE1D04D71466BA3F4F2FEF" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RadioButtonSample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RadioButtonSample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/venkatesh0112\/PVRadioButton.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "28906C8B8F9E09176CFE1D04D71466BA3F4F2FEF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/venkatesh0112\/RadioButton",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "946620783817E4422963D754712E3F3109918620"
+    }
+  ]
+}

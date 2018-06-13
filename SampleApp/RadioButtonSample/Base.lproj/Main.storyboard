@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RadioButtonSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgh-C0-aUh" customClass="PVRadioButton" customModule="RadioButtonSample" customModuleProvider="target">
+                                <rect key="frame" x="16" y="60" width="139" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="139" id="64h-kF-Sd9"/>
+                                    <constraint firstAttribute="height" constant="30" id="Ejg-Bi-I9e"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="radioButtoncolor">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonTitle" value="Male"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="buttonTitleSize">
+                                        <real key="value" value="21"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="buttonTitleColor">
+                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="0.98571275680000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qun-sv-Wo5" customClass="PVRadioButton" customModule="RadioButtonSample" customModuleProvider="target">
+                                <rect key="frame" x="16" y="110" width="139" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gZA-bg-zZN"/>
+                                    <constraint firstAttribute="width" constant="139" id="tGM-Xs-AQT"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonTitle" value="Female"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="buttonTitleColor">
+                                        <color key="value" red="0.0" green="0.4793452024" blue="0.99908632040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="spaceBetweenTextAndRadioButton">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="buttonTitleSize">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="radioButtoncolor">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qep-PA-w96" customClass="PVRadioButtonView" customModule="RadioButtonSample" customModuleProvider="target">
+                                <rect key="frame" x="10" y="320" width="349" height="143"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="143" id="KyF-ha-1J6"/>
+                                    <constraint firstAttribute="width" constant="349" id="oUT-A0-foT"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cellHeight">
+                                        <real key="value" value="36"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="radioButtonColor">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="cellBackGroudColor">
+                                        <color key="value" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showSeperator" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isScrollable" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="headerfontSize">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="headerColor">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="headerText" value="Country"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="headerSize">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="headerBackGroundColor">
+                                        <color key="value" red="0.64313725489999995" green="0.66666666669999997" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBH-KC-Yxx" customClass="PVRadioButton" customModule="RadioButtonSample" customModuleProvider="target">
+                                <rect key="frame" x="16" y="186" width="161" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="161" id="rF9-V0-xTP"/>
+                                    <constraint firstAttribute="height" constant="30" id="viK-wD-EtM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="radioButtoncolor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonTitle" value="Maried"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="buttonTitleSize">
+                                        <real key="value" value="21"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="buttonTitleColor">
+                                        <color key="value" red="1" green="0.65016475399999996" blue="0.35811499450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yk5-3Z-97d" customClass="PVRadioButton" customModule="RadioButtonSample" customModuleProvider="target">
+                                <rect key="frame" x="16" y="231" width="195" height="30"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="radioButtoncolor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonTitle" value="Un Married"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="buttonTitleSize">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="buttonTitleColor">
+                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grouped Radio Buttons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1F6-OQ-7mz">
+                                <rect key="frame" x="16" y="28" width="346" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="2vw-Eh-iNJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grouped Radio Buttons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n26-ye-kLk">
+                                <rect key="frame" x="13" y="148" width="156.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="N43-Ht-3Sf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scrollable Radio Buttons View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYb-nv-9DQ">
+                                <rect key="frame" x="16" y="277" width="346" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="NIR-af-MVf"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="QcK-71-d6o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Non-scrollable Radio Buttons View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azE-te-3aZ">
+                                <rect key="frame" x="10" y="480" width="349" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="1i9-LF-XZd"/>
+                                    <constraint firstAttribute="height" constant="21" id="CvM-3n-mK1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9WU-Ho-xJE" customClass="PVRadioButtonView" customModule="RadioButtonSample" customModuleProvider="target">
+                                <rect key="frame" x="10" y="509" width="349" height="143"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="143" id="ERQ-a7-Ddo"/>
+                                    <constraint firstAttribute="width" constant="349" id="Kbe-q2-8Jh"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cellHeight">
+                                        <real key="value" value="44"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="radioButtonColor">
+                                        <color key="value" red="0.3411764706" green="0.85490196080000003" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="cellBackGroudColor">
+                                        <color key="value" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showSeperator" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isScrollable" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="headerfontSize">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="headerColor">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="headerText" value="Country"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="headerSize">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="headerBackGroundColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qep-PA-w96" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-3" id="0ph-jg-39J"/>
+                            <constraint firstItem="Yk5-3Z-97d" firstAttribute="trailing" secondItem="IBH-KC-Yxx" secondAttribute="trailing" constant="34" id="2OG-kc-jzI"/>
+                            <constraint firstItem="IBH-KC-Yxx" firstAttribute="leading" secondItem="n26-ye-kLk" secondAttribute="leading" constant="3" id="3mw-d4-qVe"/>
+                            <constraint firstItem="RYb-nv-9DQ" firstAttribute="top" secondItem="Yk5-3Z-97d" secondAttribute="bottom" constant="16" id="4bH-VZ-oAM"/>
+                            <constraint firstItem="9WU-Ho-xJE" firstAttribute="leading" secondItem="azE-te-3aZ" secondAttribute="leading" id="5ik-L3-md1"/>
+                            <constraint firstItem="1F6-OQ-7mz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="CcP-zN-nq7"/>
+                            <constraint firstItem="azE-te-3aZ" firstAttribute="trailing" secondItem="qep-PA-w96" secondAttribute="trailing" id="H8u-aY-3T1"/>
+                            <constraint firstItem="1F6-OQ-7mz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Hj1-9X-PtA"/>
+                            <constraint firstItem="Yk5-3Z-97d" firstAttribute="top" secondItem="IBH-KC-Yxx" secondAttribute="bottom" constant="15" id="JAR-HH-TMk"/>
+                            <constraint firstAttribute="trailing" secondItem="RYb-nv-9DQ" secondAttribute="trailing" constant="13" id="K5f-XF-6yj"/>
+                            <constraint firstItem="9WU-Ho-xJE" firstAttribute="trailing" secondItem="azE-te-3aZ" secondAttribute="trailing" id="KgA-aH-OIp"/>
+                            <constraint firstItem="azE-te-3aZ" firstAttribute="top" secondItem="qep-PA-w96" secondAttribute="bottom" constant="17" id="ODf-9l-wOi"/>
+                            <constraint firstItem="IBH-KC-Yxx" firstAttribute="top" secondItem="n26-ye-kLk" secondAttribute="bottom" constant="17" id="PgV-aq-Vdg"/>
+                            <constraint firstItem="Yk5-3Z-97d" firstAttribute="width" secondItem="IBH-KC-Yxx" secondAttribute="width" constant="34" id="Wea-tb-oMJ"/>
+                            <constraint firstItem="Yk5-3Z-97d" firstAttribute="leading" secondItem="IBH-KC-Yxx" secondAttribute="leading" id="Z8J-id-bGI"/>
+                            <constraint firstItem="Qun-sv-Wo5" firstAttribute="top" secondItem="Vgh-C0-aUh" secondAttribute="bottom" constant="20" id="c5T-N3-okf"/>
+                            <constraint firstItem="RYb-nv-9DQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="ciK-90-qGh"/>
+                            <constraint firstItem="Qun-sv-Wo5" firstAttribute="centerX" secondItem="Vgh-C0-aUh" secondAttribute="centerX" id="dVK-gm-50K"/>
+                            <constraint firstItem="qep-PA-w96" firstAttribute="top" secondItem="RYb-nv-9DQ" secondAttribute="bottom" constant="22" id="gQR-5z-VvH"/>
+                            <constraint firstItem="azE-te-3aZ" firstAttribute="leading" secondItem="qep-PA-w96" secondAttribute="leading" id="i5U-4O-2hL"/>
+                            <constraint firstAttribute="trailing" secondItem="1F6-OQ-7mz" secondAttribute="trailing" constant="13" id="jcg-nR-Aq1"/>
+                            <constraint firstItem="Vgh-C0-aUh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="mOz-da-aLG"/>
+                            <constraint firstItem="Yk5-3Z-97d" firstAttribute="height" secondItem="IBH-KC-Yxx" secondAttribute="height" id="n3E-Qd-E86"/>
+                            <constraint firstItem="9WU-Ho-xJE" firstAttribute="top" secondItem="azE-te-3aZ" secondAttribute="bottom" constant="8" id="n6g-fh-RD5"/>
+                            <constraint firstItem="n26-ye-kLk" firstAttribute="top" secondItem="Qun-sv-Wo5" secondAttribute="bottom" constant="8" id="q5f-oh-gXp"/>
+                            <constraint firstItem="Vgh-C0-aUh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="vsC-g0-5bw"/>
+                            <constraint firstItem="n26-ye-kLk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-3" id="xUG-Ao-wiE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="Vgh-C0-aUh" id="Uq4-oD-fb3"/>
+                        <outlet property="button2" destination="Qun-sv-Wo5" id="7dD-YK-PM4"/>
+                        <outlet property="button3" destination="Yk5-3Z-97d" id="H0v-ef-EQq"/>
+                        <outlet property="button4" destination="IBH-KC-Yxx" id="Bjr-0O-0DG"/>
+                        <outlet property="radioView" destination="qep-PA-w96" id="pdE-ER-rGt"/>
+                        <outlet property="unScrollableRadioview" destination="9WU-Ho-xJE" id="A0w-D5-x6J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.8" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+</document>
