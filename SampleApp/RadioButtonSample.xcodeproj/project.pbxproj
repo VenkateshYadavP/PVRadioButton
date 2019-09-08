@@ -12,7 +12,6 @@
 		460168FA1F6C6FAC00025587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460168EC1F6C6FAC00025587 /* LaunchScreen.storyboard */; };
 		460168FB1F6C6FAC00025587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460168EE1F6C6FAC00025587 /* Main.storyboard */; };
 		460169001F6C6FAC00025587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460168F71F6C6FAC00025587 /* ViewController.swift */; };
-		460169081F6C70B700025587 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 460169071F6C70B700025587 /* Info.plist */; };
 		460169271F6C71C000025587 /* PVRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460169231F6C71C000025587 /* PVRadioButton.swift */; };
 		460169281F6C71C000025587 /* PVRadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460169241F6C71C000025587 /* PVRadioButtonGroup.swift */; };
 		460169291F6C71C000025587 /* PVRadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460169261F6C71C000025587 /* PVRadioButtonView.swift */; };
@@ -139,6 +138,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -157,7 +157,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				460169081F6C70B700025587 /* Info.plist in Resources */,
 				460168FB1F6C6FAC00025587 /* Main.storyboard in Resources */,
 				460168F91F6C6FAC00025587 /* Assets.xcassets in Resources */,
 				460168FA1F6C6FAC00025587 /* LaunchScreen.storyboard in Resources */,
